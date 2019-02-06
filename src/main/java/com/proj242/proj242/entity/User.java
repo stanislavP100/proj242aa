@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.Set;
 
 @Entity
-@Table(name = "table_user", catalog = "db16")
+@Table(name = "table_user", catalog = "latecoredb")
 public class User implements UserDetails {
 
     @Id
